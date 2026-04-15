@@ -32,7 +32,7 @@ void Led::ligar(uint32_t tempoLigado_ms)
 
 void Led::desligar()
 {
-    estadoPiscar = false; //resteta os valores
+    estadoPiscar = false; //reseta os valores
     desligarPorTempo = false; //reseta os valores
     estado = LOW;
 }
